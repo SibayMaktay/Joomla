@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="file" method="upgrade">
+    <name>SP Page Builder Russian language</name>
+    <version>5.8.2</version>
+    <creationDate>12.11.2024</creationDate>
+    <author>joomla.center</author>
+    <copyright>joomla.center</copyright>
+    <packager>joomla.center</packager>
+    <packagerurl>joomla.center</packagerurl>
+    <description>
+        <![CDATA[Русификатор для компонента SP Page Builder. Переведено специалистами <a href="https://joomla.center">Центра обучения Joomla</a>.]]>
+    </description>
+    <fileset>
+        <files folder="admin" target="administrator/language/ru-RU">
+            <filename>ru-RU.com_sppagebuilder.ini</filename>
+            <filename>ru-RU.com_sppagebuilder.sys.ini</filename>
+        </files>
+        <files folder="site" target="language/ru-RU">
+            <filename>ru-RU.com_sppagebuilder.ini</filename>
+        </files>
+    </fileset>
+</extension>
