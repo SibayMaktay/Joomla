@@ -58,7 +58,7 @@ class JConfig {
 	public $feed_email = 'none';
 	public $log_path = 'C:\\Server\\data\\htdocs\\Joomla\\administrator/logs';
 	public $tmp_path = 'C:\\Server\\data\\htdocs\\Joomla/tmp';
-	public $lifetime = 15;
+	public $lifetime = 500;
 	public $session_handler = 'database';
 	public $shared_session = false;
 	public $session_metadata = true;
